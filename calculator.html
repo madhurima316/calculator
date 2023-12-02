@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: inline-block;
+            margin: 50px;
+            border: 2px solid black;
+            width:370px ;
+            height:580px ;
+            padding-top:5px;
+            padding-bottom: 5px;
+            padding-left: 25px;
+            padding-right: 15px;
+        }
+        input{
+            height: 80px;
+            width: 340px;
+            margin: 20px 0px;
+            border: 2px dotted rgb(61, 2, 61);
+            font-size: 30px;
+            padding-left: 10px;
+
+        }
+        button{
+            height: 80px;
+            width: 80px;
+            font-size: 40px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(213, 176, 248);
+            margin: 3px;
+        }
+        .operators {
+            background-color: rgb(234, 222, 248);
+            color: black;
+        }
+        </style>
+</head>
+<body>
+    <div><input type="text" placeholder="operate here" ></div>
+   <div>
+        <button style="background-color: rgb(222, 205, 240); color: rgb(113, 35, 187);">C</button>
+        <button class="operators">()</button>
+        <button class="operators">%</button>
+        <button class="operators">/</button>
+    </div>
+    <div>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operators">*</button>
+    </div>
+    <div>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operators">-</button>
+    </div>
+    <div>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operators">+</button>
+    </div>
+    <div>
+        <button class="operators">+/-</button>
+        <button>0</button>
+        <button class="operators">.</button>
+        <button style="background-color: rgb(222, 205, 240); color: rgb(113, 35, 187);">=</button>
+    </div>
+</body>
+</html>
