@@ -1,0 +1,35 @@
+body{
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 700px;
+  border: 2px solid black;
+  width:370px ;
+  height:580px ;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+input{
+  height: 80px;
+  width: 340px;
+  margin: 20px 0px;
+  border: 2px dotted rgb(61, 2, 61);
+  font-size: 30px;
+  padding-left: 10px;
+
+}
+button{
+  height: 80px;
+  width: 80px;
+  font-size: 40px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(213, 176, 248);
+  margin: 3px;
+  cursor: pointer;
+}
+.operators {
+  background-color: rgb(234, 222, 248);
+  color: black;
+}

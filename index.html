@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><input type="text" placeholder="0" id="input" ></div>
+   <div>
+        <button onclick="s='';
+        document.querySelector('#input').value=s;
+        " style="background-color: rgb(222, 205, 240); color: rgb(113, 35, 187);">C</button>
+
+        <button onclick="delchar()" class="operators">del</button>
+
+        <button onclick="add('**')" class="operators">^</button>
+
+        <button onclick="add('/')" class="operators">/</button>
+    </div>
+    <div>
+        <button onclick="add('7')" class="number">7</button>
+        <button onclick="add('8')" class="number">8</button>
+        <button onclick="add('9')" class="number">9</button>
+        <button onclick="add('*')" class="operators">x</button>
+    </div>
+    <div>
+        <button onclick="add('4')" class="number">4</button>
+        <button onclick="add('5')" class="number">5</button>
+        <button onclick="add('6')" class="number">6</button>
+        <button onclick="add('-')" class="operators">-</button>
+    </div>
+    <div>
+        <button onclick="add('1')" class="number">1</button>
+        <button onclick="add('2')" class="number">2</button>
+        <button onclick="add('3')" class="number">3</button>
+        <button onclick="add('+')" class="operators">+</button>
+    </div>
+    <div>
+        <button onclick="add('00')" class="operators">00</button>
+        
+        <button onclick="add('0')" class="number">0</button>
+
+        <button onclick="add('.')" class="operators">.</button>
+
+        <button onclick="calculate()" style="background-color: rgb(222, 205, 240); color: rgb(113, 35, 187);">=</button>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
